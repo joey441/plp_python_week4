@@ -15,7 +15,7 @@ filename = input("Enter the filename: ")
 try:
     with open(filename, "r") as file:
         content = file.read()
-    print("\n✅ File read successfully!")
+    print("\n File read successfully!")
     print(content)
 
 except FileNotFoundError:
